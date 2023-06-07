@@ -1,0 +1,20 @@
+.login{
+    position: fixed;
+    top: 7px;
+    right: 7px;
+    background-color: rgba(248, 11, 82, 0.678);
+    color:white;
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 13px;
+    width: max-content;
+    cursor: pointer;
+}
+.login:hover{
+    padding: 17px;
+    color:lime;
+    background-color: blueviolet;
+}
+.spanLogin{
+    display: block;
+}

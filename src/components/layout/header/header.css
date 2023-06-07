@@ -1,0 +1,23 @@
+header{
+    background-color: rgb(2, 0, 128);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    border-top-left-radius: 7px;
+    padding: 17px;
+    height: 100px;
+    background: beige;
+}
+.logo:hover{
+    background-color: chartreuse;
+}
+.heading{
+    text-align: center;
+    color:yellow;
+    font-family: 'Galada';
+}
+.heading:hover{
+    color: azure;
+}

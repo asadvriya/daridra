@@ -1,0 +1,58 @@
+main>article{
+    display: grid;
+    justify-content: center;
+}
+form{
+    margin-bottom: 31px;
+    background-color: rgb(140, 231, 66);
+    max-width: fit-content;
+    padding: 20px;
+    display: grid;
+    border-radius: 5px;
+    justify-content: center;
+    box-shadow: 1px 1px 11px rgba(78, 75, 248, 0.671);
+
+}
+section{
+    padding: 7px;
+    margin: 1px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    min-width: 360px;
+    font-weight: bold;
+    background-color: #f2f;
+    box-shadow: 1px 1px 10px rgba(77, 223, 40, 0.671);
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 5px;
+}
+.input-box{
+    text-align: center;
+    width: 220px;
+    padding-left: 13px;
+    border: none;
+    line-height: 30px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px rgba(221, 13, 13, 0.582);
+}
+.form-button{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3px;
+}
+button{
+    background-color: rgb(95, 7, 209);
+    border-color: magenta;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 7px;
+    min-width: 97px;
+    min-height: 37px;
+    box-shadow: 1px 1px 10px rgba(206, 13, 196, 0.356);         
+}
+button>a{
+    all: unset;
+    cursor: pointer;
+}

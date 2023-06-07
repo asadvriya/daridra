@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkclient=self.webpackChunkclient||[]).push([[103],{103:function(n,e,t){t.r(e),t.d(e,{default:function(){return l}});var i=t(184);function l(){return document.getElementById="login",(0,i.jsx)("span",{href:"/login",className:"login",id:"login",children:"\u09b2\u0997\u0987\u09a8 \u0995\u09b0\u09c1\u09a8"})}}}]);
+//# sourceMappingURL=103.708a0395.chunk.js.map

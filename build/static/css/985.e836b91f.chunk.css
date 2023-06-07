@@ -1,0 +1,2 @@
+.contacts{background-color:#e0f009da;border-radius:10px;display:flex;font-size:larger;margin:3px;padding:17px}.contacts:hover{background-color:aqua}.contacts>img{border-radius:5px;height:150px}.name,.number{font-weight:700;margin-left:19px}.info>h3,.mobile{line-height:3px}.mobile>.number{font-family:Courier New,Courier,monospace}@media only screen and (max-width:768px){.contacts{padding:7px}}
+/*# sourceMappingURL=985.e836b91f.chunk.css.map*/

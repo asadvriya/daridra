@@ -1,0 +1,9 @@
+.personal-data{
+    display: flex;
+    flex-wrap: wrap;
+}
+.personal-data>div{
+    display: grid;
+    padding: 7px;
+    width: 40%;
+}
