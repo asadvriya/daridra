@@ -1,3 +1,12 @@
+@media screen and (max-width:420px) {
+    .contacts{
+    padding-bottom: 3vh;
+    flex-direction: column-reverse;
+    align-items: center;
+    }
+}
+
+
 .contacts{
     display: flex;
     padding: 17px;
