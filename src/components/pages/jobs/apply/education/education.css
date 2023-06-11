@@ -1,0 +1,37 @@
+.education-data {
+    width: 100%;
+    background-color: rgb(207, 241, 192);
+    table-layout: auto;
+  width: 100%; 
+}
+
+table>caption {
+    font-weight: bold;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgba(136, 4, 125, 0.507);
+    border-collapse: collapse;
+    text-align: center;
+}
+td>select{
+    width: 91%;
+    padding: 2%;
+    
+    border-radius: 3px;
+    min-height: 29px;
+    background-color: rgb(191, 242, 252);
+    
+
+}
+input {
+    text-align: center;
+    width: 91%;
+    margin-top: 3px;
+    padding: 2%;
+    border-radius: 3px;
+    border: 1px solid rgba(158, 21, 124, 0.699);
+    background-color: rgb(191, 242, 252);
+}

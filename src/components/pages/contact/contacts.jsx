@@ -1,6 +1,10 @@
 import useDocumentTitle from "../../../useDocumentTitle";
-import "./contact.css";
-import contact from "./contact.jpg";
+import "./contacts.css";
+import founder from "./founder.jpg";
+import chairman from "./chairman.jpg";
+import director from "./director.jpg";
+import managingDirector from "./managingDirector.jpg";
+import adviser from "./adviser.jpg";
 export default function Contacts() {
     useDocumentTitle("যেকোনো প্রয়োজনে যোগাযোগ করুন | daridra.com")
   return (
@@ -9,7 +13,7 @@ export default function Contacts() {
         <h2>
             যেকোনো প্রয়োজনে যোগাযোগ করুনঃ-
         </h2>
-        <section className="contacts">
+        <section id="founder-contact" className="contacts">
             <article className="info">
                 <h3 className="title">
                     প্রতিষ্ঠাতাঃ
@@ -22,9 +26,9 @@ export default function Contacts() {
                     <span className="number">01743-191401</span>
                 </div>
             </article>
-            <img src={contact} alt="ছবি: মোঃ সোহাগ আলী" />
+            <img src={founder} alt="ছবি: মোঃ সোহাগ আলী" />
         </section>
-        <section className="contacts">
+        <section id="chairman-contact" className="contacts">
             <article className="info">
                 <h3 className="title">
                     চেয়ারম্যান
@@ -37,9 +41,9 @@ export default function Contacts() {
                     <span className="number">01XXX-XXXXXX</span>
                 </div>
             </article>
-            <img src={contact} alt="ছবি: মোঃ সোহাগ আলী" />
+            <img src={chairman} alt="ছবি: মোঃ সোহাগ আলী" />
         </section>
-        <section className="contacts">
+        <section id="managing-director-contact" className="contacts">
             <article className="info">
                 <h3 className="title">
                     ম্যানেজিং ডাইরেক্টরঃ
@@ -52,9 +56,9 @@ export default function Contacts() {
                     <span className="number">01XXX-XXXXXX</span>
                 </div>
             </article>
-            <img src={contact} alt="ছবি: মোছাঃ স্মৃতি আক্তার" />
+            <img src={managingDirector} alt="ছবি: মোছাঃ স্মৃতি আক্তার" />
         </section>
-        <section className="contacts">
+        <section id="director-contact" className="contacts">
             <article className="info">
                 <h3 className="title">
                     ডাইরেক্টরঃ
@@ -67,9 +71,9 @@ export default function Contacts() {
                     <span className="number">01XXX-XXXXXX</span>
                 </div>
             </article>
-            <img src={contact} alt="ছবি: মোঃ শামীম আহমেদ" />
+            <img src={director} alt="ছবি: মোঃ শামীম আহমেদ" />
         </section>
-        <section className="contacts">
+        <section id="adviser-contact" className="contacts">
             <article className="info">
                 <h3 className="title">
                     উপদেষ্টাঃ
@@ -82,7 +86,7 @@ export default function Contacts() {
                     <span className="number">01714-359692</span>
                 </div>
             </article>
-            <img src={contact} alt="ছবি: শেখ শামীম আহমেদ" />
+            <img src={adviser} alt="ছবি: শেখ শামীম আহমেদ" />
         </section>
         </article>
     </main>

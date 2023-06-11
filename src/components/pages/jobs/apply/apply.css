@@ -11,3 +11,21 @@ div{
     display: grid;
     padding: 7px;
 }
+.job-form-button{
+    display: flex;
+    justify-content: center;
+}
+.submit-job{
+    position: relative;
+    margin-top: 11px;
+    color:whitesmoke;
+    background-color: green;
+    font-weight: bold;
+    border-radius: 7px;    
+    padding: 11px;
+    width: max-content;
+    cursor: pointer;
+}
+.submit-job:hover{
+    background-color: rgb(67, 7, 124);
+}

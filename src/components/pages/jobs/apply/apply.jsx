@@ -17,7 +17,9 @@ export default function ApplicantApply(){
                     <Suspense fallback={<div>loading...</div>}><Personal/></Suspense>
                     <Suspense fallback={<div>loading...</div>}><ApplicantContacts/></Suspense>
                     <Suspense fallback={<div>loading...</div>}><Educations/></Suspense>
-                    <button type="submit" value={useSubmit}>Submit</button>
+                    <section className="job-form-button">
+                    <button className="submit-job" type="submit" value={useSubmit}>Submit Your Job Application</button>
+                    </section>
                 </form>
             </section>
         </main>
