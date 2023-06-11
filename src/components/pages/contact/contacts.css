@@ -11,7 +11,7 @@
 }
 .contacts > img{
     height: 150px;
-    border-radius: 5px;
+    border-radius: 50%;
 }
 .name, .number{
     margin-left: 19px;
