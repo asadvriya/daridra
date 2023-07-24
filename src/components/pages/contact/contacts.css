@@ -1,3 +1,12 @@
+@media screen and (max-width:420px) {
+    .contacts{
+    padding-bottom: 3vh;
+    flex-direction: column-reverse;
+    align-items: center;
+    }
+}
+
+
 .contacts{
     display: flex;
     padding: 17px;
@@ -10,8 +19,13 @@
     background-color:aqua;
 }
 .contacts > img{
+    border-radius: 100px;
+    background-color: #7a00ef;
+    filter: drop-shadow(2px 4px 6px white);
+    padding: 4px;
+    box-shadow: 0px 0px 20px 0px #4c159f;
+    border: 1px solid #ff04c9;
     height: 150px;
-    border-radius: 5px;
 }
 .name, .number{
     margin-left: 19px;

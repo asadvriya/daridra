@@ -23,7 +23,7 @@ export default function Contacts() {
                 </h4>
                 <div className="mobile">
                     <h3>মোবাইল নং-</h3>
-                    <span className="number">01743-191401</span>
+                    <span className="number">01949-003648</span>
                 </div>
             </article>
             <img src={founder} alt="ছবি: মোঃ সোহাগ আলী" />
@@ -38,7 +38,7 @@ export default function Contacts() {
                 </h4>
                 <div className="mobile">
                     <h3>মোবাইল নং-</h3>
-                    <span className="number">01XXX-XXXXXX</span>
+                    <span className="number">01949-003648</span>
                 </div>
             </article>
             <img src={chairman} alt="ছবি: মোঃ সোহাগ আলী" />
@@ -53,7 +53,7 @@ export default function Contacts() {
                 </h4>
                 <div className="mobile">
                     <h3>মোবাইল নং-</h3>
-                    <span className="number">01XXX-XXXXXX</span>
+                    <span className="number">01700-516210</span>
                 </div>
             </article>
             <img src={managingDirector} alt="ছবি: মোছাঃ স্মৃতি আক্তার" />
@@ -68,7 +68,7 @@ export default function Contacts() {
                 </h4>
                 <div className="mobile">
                     <h3>মোবাইল নং-</h3>
-                    <span className="number">01XXX-XXXXXX</span>
+                    <span className="number">01628-196882</span>
                 </div>
             </article>
             <img src={director} alt="ছবি: মোঃ শামীম আহমেদ" />
